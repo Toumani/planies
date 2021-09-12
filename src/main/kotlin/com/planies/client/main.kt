@@ -1,4 +1,4 @@
-package com.example
+package com.planies.client
 
 import tornadofx.launch
 

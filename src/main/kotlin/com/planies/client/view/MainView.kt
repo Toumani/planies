@@ -1,6 +1,6 @@
-package com.example.view
+package com.planies.client.view
 
-import com.example.Styles
+import com.planies.client.Styles
 import tornadofx.*
 
 class MainView : View("Hello TornadoFX") {

@@ -1,6 +1,6 @@
-package com.example
+package com.planies.client
 
-import com.example.view.MainView
+import com.planies.client.view.MainView
 import tornadofx.App
 
 class MyApp: App(MainView::class, Styles::class)

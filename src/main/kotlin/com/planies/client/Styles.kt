@@ -1,4 +1,4 @@
-package com.example
+package com.planies.client
 
 import javafx.scene.text.FontWeight
 import tornadofx.Stylesheet
