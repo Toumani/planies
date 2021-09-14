@@ -1,12 +1,12 @@
 package com.planies.client.view
 
-import com.planies.client.Styles
 import tornadofx.*
 
 class MainView : View("Hello TornadoFX") {
-    override val root = hbox {
-        label(title) {
-            addClass(Styles.heading)
-        }
+    val sidebarView: SidebarView by inject()
+
+    override val root = borderpane {
+        left = sidebarView.root
+        center = label("Center")
     }
 }
